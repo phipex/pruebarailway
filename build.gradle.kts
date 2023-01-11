@@ -24,6 +24,6 @@ tasks.withType<Test> {
 
 tasks.withType<Jar> {
 	manifest {
-		attributes["Main-Class"] = "co.com.ies.pruebas.pokeronboard.PokeronboardApplication.main"
+		attributes["Main-Class"] = "co.com.ies.pruebas.pokeronboard.PokeronboardApplication"
 	}
 }
