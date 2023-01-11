@@ -21,3 +21,9 @@ dependencies {
 tasks.withType<Test> {
 	useJUnitPlatform()
 }
+
+tasks.withType<Jar> {
+	manifest {
+		attributes["Main-Class"] = "co.com.ies.pruebas.pokeronboard.PokeronboardApplication.main"
+	}
+}
